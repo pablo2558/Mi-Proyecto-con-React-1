@@ -8,12 +8,8 @@ Imitación de una web hecha con React js que se dedica a la venta de productos e
 ## Ver Ejemplo en vivo
 
 ## Intalacion
-Primero levantar la base de datos con json-server: 
-* npm run api
-* Luego iniciar React con npm start.
-* Este Proyecto trabaja con los siguientes paquetes: 
-* axios
-* json-server
+ Este Proyecto trabaja con los siguientes paquetes:
+* React js
 * react-router-dom
 * tailwindCSS
 * swiper
