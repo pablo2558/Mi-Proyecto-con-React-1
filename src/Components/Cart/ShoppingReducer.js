@@ -1,10 +1,47 @@
 import { TYPES } from "./ShopingActions";
+import Baterias from "../Cart/Image/Baterias.png"
+import Busbar from "../Cart/Image/Busbar.png"
+import Condensadores from "../Cart/Image/Condensadores.png"
+import Conectores from "../Cart/Image/Conectores.png"
+import Contactores from "../Cart/Image/Contactores.png"
+import Disipadores from "../Cart/Image/Disipadores.png"
+import FuenteAlimentacion from "../Cart/Image/Fuente Alimentacion.png"
+import Fusibles from "../Cart/Image/Fusibles.png"
+import Interruptores from "../Cart/Image/Interruptores.png"
+import ModuloPotencia from "../Cart/Image/Modulo Potencia.png"
+import ProteccionTension from "../Cart/Image/Proteccion Sobretension.png"
+import Reles from "../Cart/Image/Reles.png"
+import Resistencias from "../Cart/Image/Resistencias.png"
+import SensoresHall from "../Cart/Image/Sensores Hall.png"
+import Ultracaps from "../Cart/Image/Ultracaps.png"
+import Drivers from "../Cart/Image/Drivers Led.png"
+import Leds from "../Cart/Image/Leds.png"
+import OpticasLed from "../Cart/Image/Opticas Leds.png"
+import Aerosoles from "../Cart/Image/Aerosoles.png"
+import Baterias1 from "../Cart/Image/Baterias1.png"
+import Busbar1 from "../Cart/Image/Busbar1.jpg"
+import Condensadores1 from "../Cart/Image/Condensadores1.jpg"
+import Conectores1 from "../Cart/Image/Conectores1.jpg"
+import Contactores1 from "../Cart/Image/Contactores1.jpg"
+import Disipadores1 from "../Cart/Image/Disipadores1.jpg"
+import FuenteAlimentacion1 from "../Cart/Image/Fuente Alimentacion1.jpg"
+import Fusibles1 from "../Cart/Image/Fusibles1.jpg"
+import Interruptores1 from "../Cart/Image/Interruptores1.jpg"
+import ModuloPotencia1 from "../Cart/Image/Modulo Potencia1.jpg"
+import ProteccionTension1 from "../Cart/Image/Proteccion Sobretension1.jpg"
+import Reles1 from "../Cart/Image/Reles1.jpg"
+import Resistencias1 from "../Cart/Image/Resistencias1.jpg"
+import SensoresHall1 from "../Cart/Image/Sensores Hall1.jpg"
+import Termostatos from "../Cart/Image/Termostatos.jpg"
+import Transformadores from "../Cart/Image/Transformadores Planares.jpg"
+import Ultracaps1 from "../Cart/Image/Ultracaps1.jpg"
+import Ventiladores from "../Cart/Image/Ventiladores.jpg"
 
 export const shoppingInitialState = {
   products: [
     {
       id: 1,
-      image: "/Image/Baterias.png",
+      image: Baterias,
       title: "Baterias",
       price: 4500,
       description:
@@ -12,7 +49,7 @@ export const shoppingInitialState = {
     },
     {
       id: 2,
-      image: "/Image/Busbar.png",
+      image: Busbar,
       title: "Busbar",
       price: 4500,
       description:
@@ -20,7 +57,7 @@ export const shoppingInitialState = {
     },
     {
       id: 3,
-      image: "/Image/Condensadores.png",
+      image: Condensadores,
       title: "Condensadores",
       price: 4500,
       description:
@@ -28,7 +65,7 @@ export const shoppingInitialState = {
     },
     {
       id: 4,
-      image: "/Image/Conectores.png",
+      image: Conectores,
       title: "Conectores",
       price: 4500,
       description:
@@ -36,7 +73,7 @@ export const shoppingInitialState = {
     },
     {
       id: 5,
-      image: "/Image/Contactores.png",
+      image: Contactores,
       title: "Contactores",
       price: 4500,
       description:
@@ -44,7 +81,7 @@ export const shoppingInitialState = {
     },
     {
       id: 6,
-      image: "/Image/Disipadores.png",
+      image: Disipadores,
       title: "Disipadores",
       price: 4500,
       description:
@@ -52,7 +89,7 @@ export const shoppingInitialState = {
     },
     {
       id: 7,
-      image: "/Image/Fuente Alimentacion.png",
+      image: FuenteAlimentacion,
       title: "Fuentes de Alimentacion",
       price: 4500,
       description:
@@ -60,7 +97,7 @@ export const shoppingInitialState = {
     },
     {
       id: 8,
-      image: "/Image/Fusibles.png",
+      image: Fusibles,
       title: "Fusibles",
       price: 4500,
       description:
@@ -68,7 +105,7 @@ export const shoppingInitialState = {
     },
     {
       id: 9,
-      image: "/Image/Interruptores.png",
+      image: Interruptores,
       title: "Interruptores",
       price: 4500,
       description:
@@ -76,7 +113,7 @@ export const shoppingInitialState = {
     },
     {
       id: 10,
-      image: "/Image/Modulo Potencia.png",
+      image: ModuloPotencia,
       title: "Modulo de Potencia",
       price: 4500,
       description:
@@ -84,7 +121,7 @@ export const shoppingInitialState = {
     },
     {
       id: 11,
-      image: "/Image/Proteccion Sobretension.png",
+      image: ProteccionTension,
       title: "Proteccion Sobretension",
       price: 4500,
       description:
@@ -92,7 +129,7 @@ export const shoppingInitialState = {
     },
     {
       id: 12,
-      image: "/Image/Reles.png",
+      image: Reles,
       title: "Reles",
       price: 4500,
       description:
@@ -100,7 +137,7 @@ export const shoppingInitialState = {
     },
     {
       id: 13,
-      image: "/Image/Resistencias.png",
+      image: Resistencias,
       title: "Resistencias",
       price: 4500,
       description:
@@ -108,7 +145,7 @@ export const shoppingInitialState = {
     },
     {
       id: 14,
-      image: "/Image/Sensores Hall.png",
+      image: SensoresHall,
       title: "Sensores Efecto Hall",
       price: 4500,
       description:
@@ -116,7 +153,7 @@ export const shoppingInitialState = {
     },
     {
       id: 15,
-      image: "/Image/Ultracaps.png",
+      image: Ultracaps,
       title: "Ultracaps",
       price: 4500,
       description:
@@ -124,7 +161,7 @@ export const shoppingInitialState = {
     },
     {
       id: 16,
-      image: "/Image/Drivers Led.png",
+      image: Drivers,
       title: "Drivers",
       price: 4500,
       description:
@@ -132,7 +169,7 @@ export const shoppingInitialState = {
     },
     {
       id: 17,
-      image: "/Image/Leds.png",
+      image: Leds,
       title: "Leds",
       price: 4500,
       description:
@@ -140,7 +177,7 @@ export const shoppingInitialState = {
     },
     {
       id: 18,
-      image: "/Image/Opticas Leds.png",
+      image: OpticasLed,
       title: "Opticas Led",
       price: 4500,
       description:
@@ -148,15 +185,15 @@ export const shoppingInitialState = {
     },
     {
       id: 19,
-      image: "/Image/Aerosoles.png",
-      title: "Aeresoles",
+      image: Aerosoles,
+      title: "Aerosoles",
       price: 4500,
       description:
         "Toda la gama de productos estan certificados bajo las normas ISO-9001 e ISO-14001 y fabricados con estrictos controles teniendo siempre un alto compromiso hacia la calidad y consistencia.",
     },
     {
       id: 20,
-      image: "/Image/Drivers Led.png",
+      image: Drivers,
       title: "Drivers Led",
       price: 4500,
       description:
@@ -164,7 +201,7 @@ export const shoppingInitialState = {
     },
     {
       id: 21,
-      image: "/Image/Leds.png",
+      image: Leds,
       title: "Leds",
       price: 4500,
       description:
@@ -172,7 +209,7 @@ export const shoppingInitialState = {
     },
     {
       id: 22,
-      image: "/Image/Aerosoles.png",
+      image: Aerosoles,
       title: "Aerosol",
       price: 4500,
       description:
@@ -180,7 +217,7 @@ export const shoppingInitialState = {
     },
     {
       id: 23,
-      image: "/Image/Baterias1.png",
+      image: Baterias1,
       title: "Baterias",
       price: 4500,
       description:
@@ -188,7 +225,7 @@ export const shoppingInitialState = {
     },
     {
       id: 24,
-      image: "/Image/Busbar1.jpg",
+      image: Busbar1,
       title: "Busbar",
       price: 4500,
       description:
@@ -196,7 +233,7 @@ export const shoppingInitialState = {
     },
     {
       id: 25,
-      image: "/Image/Condensadores1.jpg",
+      image: Condensadores1,
       title: "Condensadores",
       price: 4500,
       description:
@@ -204,7 +241,7 @@ export const shoppingInitialState = {
     },
     {
       id: 26,
-      image: "/Image/Conectores1.jpg",
+      image: Conectores1,
       title: "Conectores",
       price: 4500,
       description:
@@ -212,7 +249,7 @@ export const shoppingInitialState = {
     },
     {
       id: 27,
-      image: "/Image/Contactores1.jpg",
+      image: Contactores1,
       title: "Contactores",
       price: 4500,
       description:
@@ -220,7 +257,7 @@ export const shoppingInitialState = {
     },
     {
       id: 28,
-      image: "/Image/Disipadores1.jpg",
+      image: Disipadores1,
       title: "Disipadores",
       price: 4500,
       description:
@@ -228,7 +265,7 @@ export const shoppingInitialState = {
     },
     {
       id: 29,
-      image: "/Image/Fuente Alimentacion1.jpg",
+      image: FuenteAlimentacion1,
       title: "Fuentes de Alimentacion",
       price: 4500,
       description:
@@ -236,7 +273,7 @@ export const shoppingInitialState = {
     },
     {
       id: 30,
-      image: "/Image/Fusibles1.jpg",
+      image: Fusibles1,
       title: "Fusibles",
       price: 4500,
       description:
@@ -244,7 +281,7 @@ export const shoppingInitialState = {
     },
     {
       id: 31,
-      image: "/Image/Interruptores1.jpg",
+      image: Interruptores1,
       title: "Interruptores",
       price: 4500,
       description:
@@ -252,7 +289,7 @@ export const shoppingInitialState = {
     },
     {
       id: 32,
-      image: "/Image/Modulo Potencia1.jpg",
+      image: ModuloPotencia1,
       title: "Modulo de Potencia",
       price: 4500,
       description:
@@ -260,7 +297,7 @@ export const shoppingInitialState = {
     },
     {
       id: 33,
-      image: "/Image/Proteccion Sobretension1.jpg",
+      image: ProteccionTension1,
       title: "Proteccion Sobre Tension",
       price: 4500,
       description:
@@ -268,7 +305,7 @@ export const shoppingInitialState = {
     },
     {
       id: 34,
-      image: "/Image/Reles1.jpg",
+      image: Reles1,
       title: "Reles",
       price: 4500,
       description:
@@ -276,7 +313,7 @@ export const shoppingInitialState = {
     },
     {
       id: 35,
-      image: "/Image/Resistencias1.jpg",
+      image: Resistencias1,
       title: "Resistencia",
       price: 4500,
       description:
@@ -284,7 +321,7 @@ export const shoppingInitialState = {
     },
     {
       id: 36,
-      image: "/Image/Sensores Hall1.jpg",
+      image: SensoresHall1,
       title: "Sensores Efectos Hall",
       price: 4500,
       description:
@@ -292,7 +329,7 @@ export const shoppingInitialState = {
     },
     {
       id: 37,
-      image: "/Image/Termostatos.jpg",
+      image: Termostatos,
       title: "Termostatos",
       price: 4500,
       description:
@@ -300,7 +337,7 @@ export const shoppingInitialState = {
     },
     {
       id: 38,
-      image: "/Image/Transformadores Planares.jpg",
+      image: Transformadores,
       title: "Transformadores Planares",
       price: 4500,
       description:
@@ -308,7 +345,7 @@ export const shoppingInitialState = {
     },
     {
       id: 39,
-      image: "/Image/Ultracaps1.jpg",
+      image: Ultracaps1,
       title: "Ultracaps",
       price: 4500,
       description:
@@ -316,7 +353,7 @@ export const shoppingInitialState = {
     },
     {
       id: 40,
-      image: "/Image/Ventiladores.jpg",
+      image: Ventiladores,
       title: "Ventiladores",
       price: 4500,
       description:

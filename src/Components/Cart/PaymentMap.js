@@ -3,7 +3,7 @@ import { CartContainer } from './ShopingCart'
 import { useContext } from 'react'
 import Payment from './Payment'
 import { Link } from 'react-router-dom'
-import MediosPagos from "./Image/Pagos.png"
+import Pagos from "../Cart/Image/Pagos.png"
 
 const PaymentMap = () => {
     const {cart} = useContext(CartContainer)
@@ -148,7 +148,7 @@ const PaymentMap = () => {
                     <div className="mb-5">
                       <label for="type1" className="flex items-center cursor-pointer"/>
                         <input type="radio" className="form-radio h-5 w-5 text-indigo-500" name="type" id="type1" checked/>
-                         <img src={MediosPagos} alt='Tarjeta' className="h-6 ml-3"/>
+                         <img src={Pagos} alt='Tarjeta' className="h-6 ml-3"/>
                         <div>
                           <div className="mb-3">
                             <label className="text-gray-600 font-semibold text-sm mb-2 ml-1">Nombre en la tarjeta</label>
