@@ -1,5 +1,4 @@
 import React from 'react'
-import Baterias from "./ProductInfo/Image/Baterias.png"
 const Collapse = () => {
   return (
     <div>
