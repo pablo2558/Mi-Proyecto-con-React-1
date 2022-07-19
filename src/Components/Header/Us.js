@@ -37,8 +37,6 @@ const Nosotros = () => {
           li > div svg       { transform: rotate(-90deg) }
           li:hover > div svg { transform: rotate(-270deg) }
 
-          .group:hover .group-hover\:scale-100 { transform: scale(1) }
-          .group:hover .group-hover\:-rotate-180 { transform: rotate(180deg) }
           .scale-0 { transform: scale(0) }
           .min-w-32 { min-width: 8rem }`}
       </style>

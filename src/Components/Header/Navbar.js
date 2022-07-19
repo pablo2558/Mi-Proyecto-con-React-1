@@ -13,7 +13,7 @@ import { CartContainer } from '../Cart/ShopingCart';
 import logo12 from "../Main/Imagenes/logo12.png"
 
 const Navbar = () => {
-    const [Open, setOpen] = useState(false)
+    const [open, setOpen] = useState(false)
     const [productsLength, setproductsLength] = useState(0)
     const {cart} = useContext(CartContainer)
     useEffect(() => {
@@ -26,12 +26,11 @@ const Navbar = () => {
     <div className={style.ENCABEZADO}>
     <a className="flex items-center h-36 w-36 ml-2" href="/">
       <img src={logo} alt="logo" className="right-1" />
-      <h3 className="text-slate-100 text-2xl font-bold"></h3>
     </a>
     <nav className="">
-      <section className="MOBILE-MENU flex mr-8 lg:hidden ">
+      <section className="MOBILE-MENU flex mr-8 lg:hidden">
         <div
-          className="HAMBURGER-ICON space-y-2"
+          className="HAMBURGER-ICON space-y-2 "
           onClick={() => setOpen((el) => !el)}
         >
           <span className={style.SPAN}></span>
@@ -39,7 +38,7 @@ const Navbar = () => {
           <span className={style.SPAN}></span>
         </div>
 
-        <div className={Open ? "showMenuNav" : "hideMenuNav"}>
+        <div className={open ? "showMenuNav" : "hideMenuNav"}>
           <div //cruz
             className="absolute top-0 right-0 px-8 py-8 bg-sky-700"
             onClick={() => setOpen(false)}
@@ -58,7 +57,7 @@ const Navbar = () => {
             </svg>
           </div>
           <ul className={style.NAVBAR_INTEMS_1}>
-           <img src={logo12} alt='image' className='w-24'/>
+           <img src={logo12} alt='' className='w-24'/>
             <li className={style.NAVBAR_INTEMS}>
               <Link to="/">
                 <Inicio/>

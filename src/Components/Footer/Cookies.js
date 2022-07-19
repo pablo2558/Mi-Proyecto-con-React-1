@@ -5,7 +5,7 @@ const Cookies = () => {
   return (
     <div className="lg:pt-40">
       <div className="bg-cover bg-center bg-[url(https://www.incibe.es/sites/default/files/styles/recuadro_original/public/contenidos/blog/img_acompanamiento_politica_de_cookies.png?itok=tdcj6dO4)] h-screen">
-        <img src={logo12} alt="image" className="w-64 pt-40" />
+        <img src={logo12} alt="" className="w-64 pt-40" />
         <div className="text-3xl">
           Construyendo futuro
           <br />

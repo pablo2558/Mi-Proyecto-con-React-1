@@ -198,12 +198,12 @@ const Footer = () => {
             <div className="mb-6">
               <ul className="list-none mb-0">
                 <li>
-                  <Link to="Privacy" className="text-white" target="_blank">
+                  <Link to="Privacy" className="text-white">
                    Politica de Privacidad
                   </Link>
                 </li>
                 <li>
-                  <Link to="Cookies" className="text-white" target="_blank">
+                  <Link to="Cookies" className="text-white">
                     Politica de Cookies
                   </Link>
                 </li>
@@ -229,7 +229,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <Link to="LegalNotice" className="text-white" target="_blank">
+                  <Link to="LegalNotice" className="text-white">
                   Aviso Legal
                   </Link>
                 </li>

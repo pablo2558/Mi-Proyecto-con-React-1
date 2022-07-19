@@ -4,7 +4,7 @@ const LegalNotice = () => {
   return (
     <div className="lg:pt-40">
       <div className="bg-cover bg-center bg-[url(https://mailrelay.com/wp-content/uploads/2016/03/Aviso-legal.png)] h-screen">
-        <img src={logo12} alt="image" className="w-64 pt-40" />
+        <img src={logo12} alt="" className="w-64 pt-40" />
         <div className="text-3xl">
           Construyendo futuro
           <br />

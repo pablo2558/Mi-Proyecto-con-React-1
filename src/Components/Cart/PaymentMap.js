@@ -153,7 +153,7 @@ const PaymentMap = () => {
                           <div className="mb-3">
                             <label className="text-gray-600 font-semibold text-sm mb-2 ml-1">Nombre en la tarjeta</label>
                             <div>
-                              <input className="w-full px-3 py-2 mb-1 border border-gray-200 rounded-md focus:outline-none focus:border-indigo-500 transition-colors" placeholder="John Smith" type="text" />
+                              <input className="w-full px-3 py-2 mb-1 border border-gray-200 rounded-md focus:outline-none focus:border-indigo-500 transition-colors" placeholder="Juan Perez" type="text" />
                             </div>
                           </div>
                           <div className="mb-3">
@@ -208,7 +208,7 @@ const PaymentMap = () => {
                     <div className="w-full p-3">
                       <label for="type2" className="flex items-center cursor-pointer">
                         <input type="radio" className="form-radio h-5 w-5 text-indigo-500" name="type" id="type2"/>
-                          <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" width="80" className="ml-3" />
+                          <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" width="80" className="ml-3" alt="" />
                         </label>
                     </div>
                   </div>
