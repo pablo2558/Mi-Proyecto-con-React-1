@@ -64,16 +64,25 @@ const Navbar = () => {
               </Link>
             </li>
             <li className={style.NAVBAR_INTEMS}>
-              <Link to="Nosotros" onClick={() => setOpen(false)} ><Nosotros/></Link>
+              <Link to="LaEmpresa" onClick={() => setOpen(false)}> La Empresa </Link>
             </li>
             <li className={style.NAVBAR_INTEMS}>
-                <Link to="Sectores" onClick={() => setOpen(false)} ><Sectores/></Link> 
+              <Link to="Historia" onClick={() => setOpen(false)} > Historia </Link>
             </li>
             <li className={style.NAVBAR_INTEMS}>
-              <Link to="Productos" onClick={() => setOpen(false)} ><Productos/></Link>
+                <Link to="Renovables" onClick={() => setOpen(false)} > Renovables </Link> 
             </li>
             <li className={style.NAVBAR_INTEMS}>
-              <Link to="Contacto" onClick={() => setOpen(false)} ><Contacto/></Link>
+                <Link to="Iluminacion" onClick={() => setOpen(false)} > Iluminacion </Link> 
+            </li>
+            <li className={style.NAVBAR_INTEMS}>
+                <Link to="Industrial" onClick={() => setOpen(false)} > Industrial </Link> 
+            </li>
+            <li className={style.NAVBAR_INTEMS}>
+                <Link to="Almacenamiento" onClick={() => setOpen(false)} > Alm. Energia </Link> 
+            </li>
+            <li className={style.NAVBAR_INTEMS}>
+              <Link to="Productos" onClick={() => setOpen(false)}><Productos/></Link>
             </li>
             <li className={style.NAVBAR_INTEMS}>
               <Link to="Carrito" onClick={() => setOpen(false)} >

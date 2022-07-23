@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Contacto = () => {
   return (
     <div className="group inline-block">
       <button className="outline-none focus:outline-none px-3 py-1 rounded-sm flex items-center min-w-32 text-white">
-        <span className="pr-1 font-semibold flex-1">Contacto</span>
+        <span className="pr-1 flex-1">Contacto</span>
         <span>
           <svg
             className="fill-current h-4 w-4 transform group-hover:-rotate-180
@@ -21,7 +22,7 @@ const Contacto = () => {
       transition duration-150 ease-in-out origin-top min-w-32"
       >
         <li className="rounded-sm px-3 py-1 hover:bg-sky-600 text-white" >
-          <a href='https://www.linkedin.com/authwall?trk=gf&trkInfo=AQGKi1HIQyzKsAAAAYG_d_3oQi8OmJpsAqwmWX3gFuWDetMZGYp2EETKrvh4TlA64qHC2EgK7DT_7dSFJnLTBaUUH72f0FHfGoWSUq1VyNMehCv9JbX_easTsLC6xtigOQwK2_k=&original_referer=https://www.inelec.net/&sessionRedirect=https%3A%2F%2Fes.linkedin.com%2Fcompany%2Finelec-spain' alt="LinkedIn" >LinkedIn</a> 
+          <Link to="Contacto"><a href='https://www.linkedin.com/authwall?trk=gf&trkInfo=AQGKi1HIQyzKsAAAAYG_d_3oQi8OmJpsAqwmWX3gFuWDetMZGYp2EETKrvh4TlA64qHC2EgK7DT_7dSFJnLTBaUUH72f0FHfGoWSUq1VyNMehCv9JbX_easTsLC6xtigOQwK2_k=&original_referer=https://www.inelec.net/&sessionRedirect=https%3A%2F%2Fes.linkedin.com%2Fcompany%2Finelec-spain' alt="LinkedIn" >LinkedIn</a></Link>  
         </li>
         <li className="rounded-sm px-3 py-1 hover:bg-sky-600 text-white">
           <a href='https://es.linkedin.com/showcase/inelec-lighting' alt="LinkedIn Lighting" >LinkedIn Lighting</a> 
