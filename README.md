@@ -9,11 +9,11 @@ Imitación de una web hecha con React js que se dedica a la venta de productos e
 
 ## Intalacion
  Este Proyecto trabaja con los siguientes paquetes:
-* React js
-* react-router-dom
-* tailwindCSS
-* swiper
-* react-icons
+* React js (npx create-react-app)
+* react-router-dom (npm i react-router-dom)
+* tailwindCSS (https://tailwindcss.com/docs/guides/create-react-app)
+* swiper (npm i swiper)
+* react-icons (npm i react-icons)
 
 ## Contacto
 pablocaneo9@gmail.com
