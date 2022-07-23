@@ -20,7 +20,7 @@ const Sectores = () => {
         transition duration-150 ease-in-out origin-top min-w-32"
       >
         <li className="rounded-sm px-3 py-1 hover:bg-sky-600 text-white">
-        <Link to="Renovables">Renovables</Link>
+         <Link to="Renovables">Renovables</Link>
         </li>
         <li className="rounded-sm px-3 py-1 hover:bg-sky-600 text-white">
           <Link to="Iluminacion">Iluminacion</Link>

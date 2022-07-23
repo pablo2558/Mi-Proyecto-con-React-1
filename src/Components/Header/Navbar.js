@@ -21,7 +21,7 @@ const Navbar = () => {
         cart?.reduce((previous, current) => previous + current.quantity, 0)
       );
     }, [cart]);
-    
+
   return (
     <div className={style.ENCABEZADO}>
     <a className="flex items-center h-36 w-36 ml-2" href="/">
@@ -59,24 +59,24 @@ const Navbar = () => {
           <ul className={style.NAVBAR_INTEMS_1}>
            <img src={logo12} alt='' className='w-24'/>
             <li className={style.NAVBAR_INTEMS}>
-              <Link to="/">
+              <Link to="/" onClick={() => setOpen(false)} >
                 <Inicio/>
               </Link>
             </li>
             <li className={style.NAVBAR_INTEMS}>
-              <Link to="Nosotros"><Nosotros/></Link>
+              <Link to="Nosotros" onClick={() => setOpen(false)} ><Nosotros/></Link>
             </li>
             <li className={style.NAVBAR_INTEMS}>
-              <Link to="Sectores"><Sectores/></Link>
+                <Link to="Sectores" onClick={() => setOpen(false)} ><Sectores/></Link> 
             </li>
             <li className={style.NAVBAR_INTEMS}>
-              <Link to="Productos"><Productos/></Link>
+              <Link to="Productos" onClick={() => setOpen(false)} ><Productos/></Link>
             </li>
             <li className={style.NAVBAR_INTEMS}>
-              <Link to="Contacto"><Contacto/></Link>
+              <Link to="Contacto" onClick={() => setOpen(false)} ><Contacto/></Link>
             </li>
             <li className={style.NAVBAR_INTEMS}>
-              <Link to="Carrito">
+              <Link to="Carrito" onClick={() => setOpen(false)} >
                 <div>
                   <BsCartDash className='text-white' />
                 </div>
