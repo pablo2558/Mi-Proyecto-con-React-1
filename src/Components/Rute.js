@@ -2,11 +2,11 @@ import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import CartMap from './Cart/CartMap'
 import PaymentMap from './Cart/PaymentMap'
+import Error404 from './Header/Error404'
 import Cookies from './Footer/Cookies'
 import Footer from './Footer/Footer'
 import LegalNotice from './Footer/LegalNotice'
 import Privacy from './Footer/Privacy'
-import Contacto from './Header/Contact'
 import Navbar from './Header/Navbar'
 import Main from './Main/Main'
 import Historia from './Nosotros/Histori'
@@ -32,12 +32,12 @@ const Rute = () => {
                 <Route path='Industrial' element={ <Industrial/> } />
                 <Route path='Almacenamiento' element={ <Storage/> } />
                 <Route path='Productos/*' element={ <Productos/> } />
-                <Route path='Contacto' element={ <Contacto/> } />
                 <Route path='Carrito' element={ <CartMap/> } />
                 <Route path='Carrito/Information' element={ <PaymentMap/> } />
                 <Route path='Cookies' element={ <Cookies/> } />
                 <Route path='Privacy' element={ <Privacy/> } />
                 <Route path='LegalNotice' element={ <LegalNotice/> } />
+                <Route path='*' element={ <Error404/> }/>
             </Routes>
             <Footer/>
         </Router>
