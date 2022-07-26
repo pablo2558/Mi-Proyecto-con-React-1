@@ -28,19 +28,19 @@ const CartItems = ({data, addToCart, deleteFromCart}) => {
         </tr>
         <button
           onClick={() => deleteFromCart(id)}
-          className="border border-white rounded-lg px-4 text-white font-semibold mt-6 mb-6 bg-amber-500 hover:bg-orange-700 "
+          className="border border-white rounded-lg px-4 text-white font-semibold mt-5 bg-amber-500 hover:bg-orange-700 "
         >
           Eliminar uno
         </button>
         <button
           onClick={() => deleteFromCart(id, true)}
-          className="border border-white rounded-lg px-4 text-white font-semibold mt-6 mb-6 bg-amber-500 hover:bg-orange-700"
+          className="border border-white rounded-lg px-4 text-white font-semibold mt-5 bg-amber-500 hover:bg-orange-700"
         >
           Eliminar todos
         </button>
         <button
           onClick={() => addToCart(id)}
-          className="border border-white rounded-lg px-4 text-white font-semibold mt-6 mb-6 bg-amber-500 hover:bg-orange-700"
+          className="border border-white rounded-lg px-4 text-white font-semibold mt-5 mb-1 bg-amber-500 hover:bg-orange-700"
         >
           Agregar Item
         </button>
