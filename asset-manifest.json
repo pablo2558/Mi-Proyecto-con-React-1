@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mi-Proyecto-con-React-1/static/css/main.4610815e.css",
-    "main.js": "/Mi-Proyecto-con-React-1/static/js/main.7dc8c87d.js",
+    "main.js": "/Mi-Proyecto-con-React-1/static/js/main.99848d0e.js",
     "static/js/787.c25309a5.chunk.js": "/Mi-Proyecto-con-React-1/static/js/787.c25309a5.chunk.js",
     "static/media/Condensadores1.jpg": "/Mi-Proyecto-con-React-1/static/media/Condensadores1.b5bcbd62e9b0eddb83d8.jpg",
     "static/media/Molinos.jpg": "/Mi-Proyecto-con-React-1/static/media/Molinos.6ea11d37e823322c4363.jpg",
@@ -57,11 +57,11 @@
     "static/media/Paneles.jpg": "/Mi-Proyecto-con-React-1/static/media/Paneles.755484c32815beabfce6.jpg",
     "index.html": "/Mi-Proyecto-con-React-1/index.html",
     "main.4610815e.css.map": "/Mi-Proyecto-con-React-1/static/css/main.4610815e.css.map",
-    "main.7dc8c87d.js.map": "/Mi-Proyecto-con-React-1/static/js/main.7dc8c87d.js.map",
+    "main.99848d0e.js.map": "/Mi-Proyecto-con-React-1/static/js/main.99848d0e.js.map",
     "787.c25309a5.chunk.js.map": "/Mi-Proyecto-con-React-1/static/js/787.c25309a5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4610815e.css",
-    "static/js/main.7dc8c87d.js"
+    "static/js/main.99848d0e.js"
   ]
 }
