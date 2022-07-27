@@ -33,7 +33,7 @@ const Navbar = () => {
             <div className='mr-4'>
               <BsCartDash className="text-white" />
             </div>
-            <div>{productsLength}</div>
+            <div className='text-white'>{productsLength}</div>
           </Link>
           <div //Hamburguesa
             className="HAMBURGER-ICON space-y-2 "
@@ -141,7 +141,7 @@ const Navbar = () => {
               <div>
                 <BsCartDash className="text-white" />
               </div>
-              <div>{productsLength}</div>
+              <div className='text-white'>{productsLength}</div>
             </Link>
           </li>
         </ul>
